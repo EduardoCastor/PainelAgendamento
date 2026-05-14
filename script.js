@@ -216,7 +216,7 @@ async function carregarListaAtend() {
             atendSelectEl.appendChild(o);
         });
     } catch {
-        atendSelectEl.innerHTML = '<option value="">Erro ao carregar</option>';
+        atendSelectEl.innerHTML = '<option value="">Não há atendimentos disponíveis</option>';
     }
 }
 
